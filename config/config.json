@@ -1,0 +1,14 @@
+{
+    "maps": {
+        "key": "AIzaSyC-AYcub47ZNSftskJ1t0EREMYTysjw18o",
+        "lat": 51.50,
+        "lng": -0.11
+    },
+    "foursquare": {
+        "url": "https://api.foursquare.com/v2/venues/explore",
+        "client_id": "T2KXKQ2C4G3KMTQFRXVSF3LY0LA1AF52NSIATC3C03GOBWXT",
+        "client_secret": "OSCU5JQGA4JFJRIKQBHZCALSS4MBHCAQHPUC2VNT1KXVLCYC",
+        "v": 20130815,
+        "radius": 200
+    }
+}

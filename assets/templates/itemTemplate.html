@@ -1,0 +1,10 @@
+<div class="item <%- data.active ? 'active' : '' %>" data-marker="<%-data.index%>">
+    <img src="<%- data.image %>" alt="...">
+    <div class="carousel-caption">
+        <div class="title">
+            <h2><%- data.tips && data.tips[0].text %></h2>
+            <p><%- data.venue.location.formattedAddress.join(', ') %></p>
+            <span>Is it still open? <%- (data.venue.hours && data.venue.hours.isOpen) ? 'Yep.' : 'Nope.' %></span>
+        </div>
+    </div>
+</div>
